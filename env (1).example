@@ -1,0 +1,13 @@
+# Configurações do ambiente DISC
+# Copie este arquivo para .env e preencha os valores
+
+# Chave secreta para sessões e tokens
+SECRET_KEY=sua_chave_secreta_aqui
+
+# URL de conexão com o banco de dados PostgreSQL
+# Formato: postgresql://usuario:senha@host:porta/nome_banco
+DATABASE_URL=postgresql://postgres:senha@localhost:5432/disc_app
+
+# Configurações de ambiente
+FLASK_APP=src/main_postgres.py
+FLASK_ENV=development
